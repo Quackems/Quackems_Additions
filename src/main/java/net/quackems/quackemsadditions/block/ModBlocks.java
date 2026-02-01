@@ -20,9 +20,9 @@ public class ModBlocks {
 
 
 
-    public static final RegistryObject<Block> TENEBRITE_BLOCK = registerBlock("tenebrite_block.json",
+    public static final RegistryObject<Block> TENEBRITE_BLOCK = registerBlock("tenebrite_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK).strength(4, 5000)));
 
 
 

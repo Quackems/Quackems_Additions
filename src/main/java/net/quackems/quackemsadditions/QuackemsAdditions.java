@@ -15,6 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.quackems.quackemsadditions.block.ModBlocks;
+import net.quackems.quackemsadditions.item.ModCreativeModeTabs;
 import net.quackems.quackemsadditions.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,8 @@ public class QuackemsAdditions
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
 
         ModItems.register(modEventBus);
