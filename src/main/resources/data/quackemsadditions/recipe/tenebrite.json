@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "quackemsadditions:tenebrite_block"
+    }
+  ],
+  "result": {
+    "id": "quackemsadditions:tenebrite",
+    "count": 9
+  }
+}

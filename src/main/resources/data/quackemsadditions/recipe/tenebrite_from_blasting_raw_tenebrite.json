@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "tenebrite",
+  "ingredient": {
+    "item": "quackemsadditions:raw_tenebrite"
+  },
+  "result": {
+    "id": "quackemsadditions:tenebrite"
+  }
+}
