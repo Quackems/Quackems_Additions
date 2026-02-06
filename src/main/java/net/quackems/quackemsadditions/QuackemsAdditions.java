@@ -66,6 +66,7 @@ public class QuackemsAdditions
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.TENEBRITE_BLOCK);
+            event.accept(ModBlocks.TENEBRITE_ORE);
         }
     }
 

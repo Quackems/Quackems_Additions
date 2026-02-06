@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.TENEBRITE_INGOT.get());
                         pOutput.accept(ModItems.RAW_TENEBRITE.get());
                         pOutput.accept(ModBlocks.TENEBRITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.TENEBRITE_ORE.get());
                     })
 
 
