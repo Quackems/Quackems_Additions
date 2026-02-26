@@ -62,6 +62,8 @@ public class QuackemsAdditions
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.TENEBRITE_INGOT);
             event.accept(ModItems.RAW_TENEBRITE);
+            event.accept(ModItems.SOLARIUM_INGOT);
+            event.accept(ModItems.RAW_SOLARIUM);
         }
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {

@@ -19,6 +19,12 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_TENEBRITE = ITEMS.register("raw_tenebrite",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SOLARIUM_INGOT = ITEMS.register("solarium_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_SOLARIUM = ITEMS.register("raw_solarium",
+            () -> new Item(new Item.Properties()));
+
 
 
 

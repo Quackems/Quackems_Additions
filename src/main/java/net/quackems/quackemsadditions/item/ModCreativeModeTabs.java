@@ -21,7 +21,12 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.TENEBRITE_INGOT.get());
                         pOutput.accept(ModItems.RAW_TENEBRITE.get());
+                        pOutput.accept(ModItems.SOLARIUM_INGOT.get());
+                        pOutput.accept(ModItems.RAW_SOLARIUM.get());
+
+
                         pOutput.accept(ModBlocks.TENEBRITE_BLOCK.get());
+                        pOutput.accept(ModBlocks.TENEBRITE_ORE.get());
                         pOutput.accept(ModBlocks.TENEBRITE_ORE.get());
                     })
 
